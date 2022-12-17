@@ -1,0 +1,23 @@
+#files to ignore
+
+*.metadata/**
+*.recommenders/**
+*/target/**
+*/build/**
+*.idea/**
+
+*.iml
+#*.class
+
+#Netbeans
+**nb-configuration.xml
+**nfbactions.xml
+/target/
+/nbproject/
+nbactions.xml
+logs/dbm.log
+
+**src/main/resources/log4j2.xml
+
+/db-migration-test-jar/target/
+/db-migration-core/target/
