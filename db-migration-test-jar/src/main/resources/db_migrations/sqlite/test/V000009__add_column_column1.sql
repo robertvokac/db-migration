@@ -1,0 +1,2 @@
+ALTER TABLE TEST_RC
+ADD COLUMN column8 text;
