@@ -78,6 +78,7 @@ public abstract class DBMigrationPersistenceBase implements DBMigrationPersisten
 
         } catch (SQLException e) {
             LOG.error(e.getMessage());
+            throw new RuntimeException(e);
         }
         return conn;
     }
