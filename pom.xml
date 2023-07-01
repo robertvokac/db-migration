@@ -25,22 +25,22 @@
     <parent>
         <groupId>org.nanoboot.essential</groupId>
         <artifactId>nanoboot-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <version>0.1.0</version>
     </parent>
 
     <groupId>org.nanoboot.tools.dbmigration</groupId>
     <artifactId>db-migration</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>pom</packaging>
 
     <name>DB Migration</name>
     <description>Tool migrating databases versions.</description>
 
     <properties>
-        <dbmigration.version>0.1.0-SNAPSHOT</dbmigration.version>
+        <dbmigration.version>0.1.0</dbmigration.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <checkstyle.skip>true</checkstyle.skip><!-- TODO: make false-->
-        <power.version>2.0.0-SNAPSHOT</power.version>
+        <power.version>2.0.0</power.version>
     </properties>
     <modules>
         <module>db-migration-core</module>
