@@ -23,7 +23,7 @@
  * @since 0.1.0
  */
 module dbmigration.core {
-    requires org.flywaydb.core;
+    //requires org.flywaydb.core;
     requires lombok;
     requires java.sql;
     requires powerframework.time;    
