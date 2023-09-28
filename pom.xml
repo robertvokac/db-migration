@@ -25,7 +25,7 @@
     <parent>
         <groupId>org.nanoboot.essential</groupId>
         <artifactId>nanoboot-parent</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.nanoboot.tools.dbmigration</groupId>
@@ -40,7 +40,7 @@
         <dbmigration.version>0.1.1-SNAPSHOT</dbmigration.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <checkstyle.skip>true</checkstyle.skip><!-- TODO: make false-->
-        <power.version>2.0.0</power.version>
+        <power.version>2.0.1-SNAPSHOT</power.version>
     </properties>
     <modules>
         <module>db-migration-core</module>
