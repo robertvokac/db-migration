@@ -112,4 +112,3 @@ Java 21 is installed - variable JAVA_21_HOME is set
         }
     }
 }
-
