@@ -19,7 +19,7 @@
 
 /**
  *
- * @author <a href="mailto:robertvokac@nanoboot.org">Robert Vokac</a>
+ * @author <a href="mailto:robertvokac@robertvokac.com">Robert Vokac</a>
  * @since 0.1.0
  */
 module dbmigration.core {
@@ -31,5 +31,5 @@ module dbmigration.core {
     requires powerframework.security;
     requires org.apache.logging.log4j;
     requires org.apache.logging.log4j.core;
-    exports org.nanoboot.dbmigration.core.main;
+    exports com.robertvokac.dbmigration.core.main;
 }

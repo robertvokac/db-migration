@@ -23,12 +23,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.nanoboot.tools.dbmigration</groupId>
+        <groupId>com.robertvokac.tools.dbmigration</groupId>
         <artifactId>db-migration</artifactId>
         <version>0.1.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.nanoboot.tools.dbmigration</groupId>
+    <groupId>com.robertvokac.tools.dbmigration</groupId>
     <artifactId>db-migration-test-jar</artifactId>
     <packaging>jar</packaging>
 
@@ -153,17 +153,17 @@
         </dependency>
         <!--         Power dependencies -->
         <dependency>
-            <groupId>org.nanoboot.powerframework</groupId>
+            <groupId>com.robertvokac.powerframework</groupId>
             <artifactId>power-time</artifactId>
             <version>${power.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.nanoboot.powerframework</groupId>
+            <groupId>com.robertvokac.powerframework</groupId>
             <artifactId>power-core</artifactId>
             <version>${power.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.nanoboot.powerframework</groupId>
+            <groupId>com.robertvokac.powerframework</groupId>
             <artifactId>power-security</artifactId>
             <version>${power.version}</version>
         </dependency>

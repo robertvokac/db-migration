@@ -23,12 +23,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.nanoboot.essential</groupId>
-        <artifactId>nanoboot-parent</artifactId>
+        <groupId>com.robertvokac.essential</groupId>
+        <artifactId>robertvokac-parent</artifactId>
         <version>0.1.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.nanoboot.tools.dbmigration</groupId>
+    <groupId>com.robertvokac.tools.dbmigration</groupId>
     <artifactId>db-migration</artifactId>
     <version>0.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -65,29 +65,29 @@
     
     </dependencies>
 
-    <repositories>
+    <repositories>        
         <repository>
-            <id>releases</id>
-            <name>nanoboot-releases-repository</name>
-            <url>https://maven.nanoboot.org/releases</url>
+            <id>robertvokac-releases-repository</id>
+            <name>robertvokac-releases-repository</name>
+            <url>https://maven.robertvokac.com/releases</url>
         </repository>
         <repository>
-            <id>snapshots</id>
-            <name>nanoboot-snapshots-repository</name>
-            <url>https://maven.nanoboot.org/snapshots</url>
+            <id>robertvokac-snapshots-repository</id>
+            <name>robertvokac-snapshots-repository</name>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </repository>
     </repositories>
 
-    <pluginRepositories>
+    <pluginRepositories>        
         <pluginRepository>
-            <id>releases</id>
-            <name>nanoboot-releases-repository</name>
-            <url>https://maven.nanoboot.org/releases</url>
+            <id>robertvokac-releases-repository</id>
+            <name>robertvokac-releases-repository</name>
+            <url>https://maven.robertvokac.com/releases</url>
         </pluginRepository>
         <pluginRepository>
-            <id>snapshots</id>
-            <name>nanoboot-snapshots-repository</name>
-            <url>https://maven.nanoboot.org/snapshots</url>
+            <id>robertvokac-snapshots-repository</id>
+            <name>robertvokac-snapshots-repository</name>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
     

@@ -17,19 +17,13 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
+package com.robertvokac.dbmigration.core.main;
+
 /**
  *
  * @author <a href="mailto:robertvokac@robertvokac.com">Robert Vokac</a>
  * @since 0.1.0
  */
-module dbmigration.testjar {
-    requires org.flywaydb.core;
-    requires lombok;
-    requires java.sql;
-    requires powerframework.time;    
-    requires powerframework.core;    
-    requires powerframework.security;
-    requires org.apache.logging.log4j;
-    requires org.apache.logging.log4j.core;
-    exports com.robertvokac.dbmigration.test.jar;
+public enum DBMigrationTarget {
+    TEST, INFO, VALIDATE, MIGRATE, REPAIR;
 }
